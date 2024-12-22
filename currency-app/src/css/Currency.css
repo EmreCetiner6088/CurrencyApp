@@ -1,0 +1,61 @@
+.currency {
+    border: 7px solid #3a2727;
+    width: 500px;
+    height: 300px;
+}
+h1 {
+    text-align: center;
+    color: #3a2727;
+    background-color: black;
+    margin-top: 0px;
+}
+.fromAmount {
+    width: 60px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.toAmount {
+    width: 60px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.fromCurrency {
+    width: 60px;
+    height: 25px;
+}
+
+.toCurrency {
+    width: 60px;
+    height: 25px;
+
+}
+
+.currencyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    margin: 20px;
+    background: transparent;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #3a2727;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+.textCurrency {
+    color: #79b629;
+}
